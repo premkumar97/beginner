@@ -1,10 +1,8 @@
 #include<stdio.h>
-
-
 int main(){
 int n,dig,size=0,i,j,temp,ans=0;
 int sol[100];
-clrscr();
+
 printf("Enter the number");
 scanf("%d",&n);
 printf("Enter the Value of limit");
