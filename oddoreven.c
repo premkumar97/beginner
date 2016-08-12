@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int  main()
 {
 int a;
 printf("Enter the number");
@@ -9,5 +8,5 @@ if(a%2==0)
 printf("The Number %d is Even",a);
 else
 printf("The Number %d is Odd",a);
-getch();
+return 0;
 }
