@@ -1,7 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 
-void main(){
+
+int main(){
 int n,dig,size=0,i,j,temp,ans=0;
 int sol[100];
 clrscr();
@@ -32,4 +32,5 @@ for(i=0;i<size-dig;i++)
  ans=ans*10+sol[i];
 }
 printf("%d",ans);
+return 0;
 }
