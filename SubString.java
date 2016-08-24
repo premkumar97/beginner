@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class SubString {
+public class Sub {
 public static void main(String args[])
 {
 	Scanner sn=new Scanner(System.in);
-	String a=sn.nextLine();
-	System.out.println(a.indexOf("abcd"));
+	String s1=sn.nextLine();
+	String s2=sn.nextLine();
+	System.out.println(s1.indexOf(s2));
 	
 }
 }
