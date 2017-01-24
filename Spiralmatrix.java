@@ -33,7 +33,7 @@ public class Spiralmatrix {
  
         while(m>0 && n>0){
  
-            //if one row/column left, no circle can be formed
+            
             if(m==1){
                 for(int i=0; i<n; i++){
                     result.add(matrix[x][y++]);
@@ -46,24 +46,22 @@ public class Spiralmatrix {
                 break;
             }
  
-            //below, process a circle
- 
-            //top - move right
+            
             for(int i=0;i<n-1;i++){
                 result.add(matrix[x][y++]);
             }
  
-            //right - move down
+            
             for(int i=0;i<m-1;i++){
                 result.add(matrix[x++][y]);
             }
  
-            //bottom - move left
+            
             for(int i=0;i<n-1;i++){
                 result.add(matrix[x][y--]);
             }
  
-            //left - move up
+            
             for(int i=0;i<m-1;i++){
                 result.add(matrix[x--][y]);
             }
